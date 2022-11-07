@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+h1 {
+  color: darkgreen;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  /* background-color: coral; */
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family:"Montserrat", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-item:hover{
+    opacity: 50%;
+}
+
+.navbar {
+  background-color: #f2dd65;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
