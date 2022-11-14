@@ -41,3 +41,9 @@ footer {
   justify-content: space-around;
 }
 
+.cardContainer {
+  display: inline-flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+

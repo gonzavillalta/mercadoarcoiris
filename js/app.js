@@ -22,7 +22,16 @@
 // }
 
 let precio = prompt("Ingrese el precio");
-let cantidad = prompt("ingrese cantidad");
+while (precio != parseFloat(precio)) {
+  alert("precio incorrecto. vuelva a intentarlo");
+  precio = prompt("Ingrese nuevo precio");
+}
+
+let cantidad = prompt("Ingrese la cantidad");
+while (cantidad != parseInt(cantidad)) {
+  alert("cantidad incorrecta. vuelva a intentarlo");
+  cantidad = prompt("Ingrese nueva cantidad");
+}
 
 function calcularPrecioFinal(precio, cantidad) {
   const iva = 21;
