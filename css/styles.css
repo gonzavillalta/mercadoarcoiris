@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sinMargen {
+  margin: 0;
+  padding: 0; } 
+
+html {
+  font-size: 60%;
+}
+
+.header {
+  background-color: #0cd563;
+  padding-top: 1vw;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  
+} 
+
+/* .header nav .entry {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: stretch; } */
+
+.header nav .entry form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end; }
+
+
+  footer {
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  /* background-color: coral; */
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family:"Montserrat", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-item:hover{
+    opacity: 20%;
+}
+
+.navbar-brand {
+  width: 5%;
+}
+
+.carrito {
+width: 10%;
+}
+
+.categorias{
+  margin-top: 20px;
+}
+
+.botonCategorias {
+  color: #fcfcfc;
+  padding: 1.7rem 4rem;
+  border-radius: 5rem;
+  border: 0;
+  background-color: #0cd563;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  transition: all .5s ease; }
+
+.entrybutton{
+  color: black;
+  border-radius: 5rem;
+  border: 0;
+  background-color: #0cd563;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  transition: all .5s ease; }
+
+
+.tiendaTitulo {
+    background: #fcfcfc; }
+  
+.productcontainer {
+      display: flex;
+      align-content: space-around;
+      
+}     
+
+.card{
+  width: 20%;
+  padding: 20px 10px;
+  border: 1px solid black;
+  border-radius: 20px; 
+}
+
+.precio {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.buybutton {
+  margin: 10px 0;
+  background-color: rgb(146, 14, 202);
+  color: rgb(247, 247, 247);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buybutton:hover {
+  background-color: rgb(141, 5, 104);
+  box-shadow: 1px 1px 10px lightgrey;
+}
